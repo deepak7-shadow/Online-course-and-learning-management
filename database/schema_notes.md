@@ -9,3 +9,4 @@
 6. **Flyway Migrations**:
    - `V1__initial_schema.sql`: Base DDL for all application tables and indexes.
    - `V2__seed_data.sql`: Seed data for categories and initial reference rows.
+

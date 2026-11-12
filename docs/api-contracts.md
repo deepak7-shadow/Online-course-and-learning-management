@@ -55,3 +55,4 @@ Content-Type: application/json
 - `GET /api/v1/quizzes/{quizId}` - Get quiz questions (for student)
 - `POST /api/v1/quizzes/{quizId}/submit` - Submit answers and calculate score
 - `GET /api/v1/quizzes/{quizId}/attempts` - Get past attempts and scores
+

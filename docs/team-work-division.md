@@ -61,3 +61,4 @@
   - Implement reviews/ratings, wishlist and course analytics if included in MVP.
   - Integrate media upload/storage metadata (store large files in Cloudinary/object storage).
   - Write JUnit/Mockito/MockMvc tests for business logic, database access and ownership-sensitive operations.
+
