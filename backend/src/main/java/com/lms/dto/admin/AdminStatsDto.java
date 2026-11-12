@@ -20,3 +20,4 @@ public class AdminStatsDto {
     private long pendingCourses;
     private long publishedCourses;
 }
+

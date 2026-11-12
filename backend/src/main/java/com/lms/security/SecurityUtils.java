@@ -71,3 +71,4 @@ public final class SecurityUtils {
                 .anyMatch(auth -> auth.equalsIgnoreCase(expected));
     }
 }
+

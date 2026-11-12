@@ -48,3 +48,4 @@ public class AdminCourseController {
         return ResponseEntity.ok(ApiResponse.ok("Course approval decision recorded successfully", result));
     }
 }
+

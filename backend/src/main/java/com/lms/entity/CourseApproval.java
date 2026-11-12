@@ -43,3 +43,4 @@ public class CourseApproval {
     @Column(name = "decided_at", nullable = false, updatable = false)
     private OffsetDateTime decidedAt;
 }
+

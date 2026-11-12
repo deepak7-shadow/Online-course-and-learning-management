@@ -18,3 +18,4 @@ public class CourseApprovalRequest {
 
     private String comments;
 }
+

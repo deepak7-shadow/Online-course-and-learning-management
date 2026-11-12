@@ -6,3 +6,4 @@ public enum CourseStatus {
     PUBLISHED,
     REJECTED
 }
+

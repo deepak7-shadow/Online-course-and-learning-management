@@ -76,3 +76,4 @@ public class UserServiceTests {
         assertEquals(Role.ROLE_INSTRUCTOR, result.getRole());
     }
 }
+

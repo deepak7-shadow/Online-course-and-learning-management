@@ -29,3 +29,4 @@ public class CategoryController {
         return ResponseEntity.ok(ApiResponse.ok("Category retrieved successfully", category));
     }
 }
+

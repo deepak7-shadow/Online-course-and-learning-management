@@ -13,3 +13,4 @@ class LmsApplicationTests {
         // Verifies Spring context initializes properly
     }
 }
+

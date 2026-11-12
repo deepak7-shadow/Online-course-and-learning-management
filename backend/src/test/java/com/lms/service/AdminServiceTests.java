@@ -104,3 +104,4 @@ public class AdminServiceTests {
         verify(courseApprovalRepository).save(any(CourseApproval.class));
     }
 }
+

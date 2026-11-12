@@ -11,3 +11,4 @@ VALUES
     ('a0000000-0000-0000-0000-000000000004', 'Mobile Development', 'mobile-development', 'Build mobile apps with Flutter, React Native, iOS, and Android.', true),
     ('a0000000-0000-0000-0000-000000000005', 'Cybersecurity', 'cybersecurity', 'Network security, ethical hacking, and secure application development.', true)
 ON CONFLICT (slug) DO NOTHING;
+

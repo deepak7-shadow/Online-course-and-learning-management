@@ -12,3 +12,4 @@ public interface CourseApprovalRepository extends JpaRepository<CourseApproval, 
 
     List<CourseApproval> findByCourseIdOrderByDecidedAtDesc(UUID courseId);
 }
+

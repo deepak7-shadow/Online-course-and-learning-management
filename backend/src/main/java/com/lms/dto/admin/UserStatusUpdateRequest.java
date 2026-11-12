@@ -18,3 +18,4 @@ public class UserStatusUpdateRequest {
 
     private String reason;
 }
+

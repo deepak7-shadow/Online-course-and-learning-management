@@ -19,3 +19,4 @@ public interface CategoryService {
 
     void deleteCategory(UUID id);
 }
+

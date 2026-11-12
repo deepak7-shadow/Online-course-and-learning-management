@@ -39,3 +39,4 @@ public interface UserProfileRepository extends JpaRepository<UserProfile, UUID> 
                                   @Param("status") AccountStatus status,
                                   Pageable pageable);
 }
+

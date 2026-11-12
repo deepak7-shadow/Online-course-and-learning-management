@@ -56,3 +56,4 @@ public class UserProfile {
     @Column(name = "updated_at")
     private OffsetDateTime updatedAt;
 }
+
