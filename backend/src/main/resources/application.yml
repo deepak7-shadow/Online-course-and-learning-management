@@ -11,9 +11,9 @@ spring:
     active: ${SPRING_PROFILES_ACTIVE:dev}
 
   datasource:
-    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/postgres}
+    url: ${DATABASE_URL:jdbc:postgresql://db.uwlyqosmckfwnmezajrf.supabase.co:5432/postgres}
     username: ${DATABASE_USERNAME:postgres}
-    password: ${DATABASE_PASSWORD:postgres}
+    password: ${DATABASE_PASSWORD:}
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
@@ -24,24 +24,21 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: ${HIBERNATE_DDL_AUTO:none}
+      ddl-auto: none
     open-in-view: false
     show-sql: false
-    properties:
-      hibernate:
-        format_sql: false
 
   flyway:
-    enabled: ${FLYWAY_ENABLED:true}
+    enabled: true
     baseline-on-migrate: true
-    locations: classpath:db/migration,filesystem:../database/migrations
+    locations: classpath:db/migration
 
 supabase:
-  url: ${SUPABASE_URL:https://your-project.supabase.co}
+  url: ${SUPABASE_URL:https://uwlyqosmckfwnmezajrf.supabase.co}
   jwt:
     secret: ${SUPABASE_JWT_SECRET:}
-    issuer: ${SUPABASE_URL:https://your-project.supabase.co}/auth/v1
-    jwks-uri: ${SUPABASE_URL:https://your-project.supabase.co}/auth/v1/.well-known/jwks.json
+    issuer: ${SUPABASE_URL:https://uwlyqosmckfwnmezajrf.supabase.co}/auth/v1
+    jwks-uri: ${SUPABASE_URL:https://uwlyqosmckfwnmezajrf.supabase.co}/auth/v1/.well-known/jwks.json
 
 app:
   cors:

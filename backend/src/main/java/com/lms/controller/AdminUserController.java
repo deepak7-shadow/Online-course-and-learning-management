@@ -65,3 +65,4 @@ public class AdminUserController {
         return ResponseEntity.ok(ApiResponse.ok("User role updated successfully", updated));
     }
 }
+

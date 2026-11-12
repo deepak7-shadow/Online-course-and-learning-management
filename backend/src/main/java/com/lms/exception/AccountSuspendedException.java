@@ -9,3 +9,4 @@ public class AccountSuspendedException extends RuntimeException {
         super(message);
     }
 }
+

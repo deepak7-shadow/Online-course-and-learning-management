@@ -16,3 +16,4 @@ public interface UserService {
 
     UserProfileDto updateProfile(UUID userId, UpdateProfileRequest request);
 }
+

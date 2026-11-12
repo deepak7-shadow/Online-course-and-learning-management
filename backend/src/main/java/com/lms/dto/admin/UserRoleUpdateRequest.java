@@ -16,3 +16,4 @@ public class UserRoleUpdateRequest {
     @NotNull(message = "Role is required")
     private Role role;
 }
+

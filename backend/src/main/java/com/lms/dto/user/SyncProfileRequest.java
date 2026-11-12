@@ -27,3 +27,4 @@ public class SyncProfileRequest {
      */
     private String requestedRole;
 }
+

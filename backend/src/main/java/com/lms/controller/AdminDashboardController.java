@@ -24,3 +24,4 @@ public class AdminDashboardController {
         return ResponseEntity.ok(ApiResponse.ok("Admin stats retrieved successfully", stats));
     }
 }
+

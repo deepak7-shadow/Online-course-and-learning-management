@@ -45,3 +45,4 @@ public class Category {
     @Column(name = "updated_at")
     private OffsetDateTime updatedAt;
 }
+

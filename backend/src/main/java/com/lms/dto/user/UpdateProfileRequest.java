@@ -17,3 +17,4 @@ public class UpdateProfileRequest {
 
     private String avatarUrl;
 }
+

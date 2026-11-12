@@ -100,3 +100,4 @@ public class UserServiceImpl implements UserService {
         return UserProfileDto.fromEntity(updated);
     }
 }
+

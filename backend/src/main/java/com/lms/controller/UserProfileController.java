@@ -42,3 +42,4 @@ public class UserProfileController {
         return ResponseEntity.ok(ApiResponse.ok("Profile synchronized with Supabase Auth", synced));
     }
 }
+
