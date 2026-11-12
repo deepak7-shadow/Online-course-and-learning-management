@@ -33,3 +33,4 @@ The Online Course & Learning Management System utilizes a modern decoupled archi
 2. **Cryptographic JWT Verification:** Backend cryptographically verifies the JWT signature against Supabase, ensuring issuer, expiration, and audience claims are valid.
 3. **Identity Mapping:** User profiles in the public `profiles` table use the same UUID as Supabase `auth.users(id)`.
 4. **Defense in Depth:** UI role checks tailor the user experience, while Spring Boot strictly enforces authorization rules on all endpoints.
+

@@ -38,3 +38,4 @@
 - `profiles` (Student) N:M `courses` (via `enrollments`)
 - `enrollments` 1:N `lesson_progress`
 - `quizzes` 1:N `quiz_attempts`
+
