@@ -1,0 +1,29 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://db.uwlyqosmckfwnmezajrf.supabase.co:5432/postgres}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:Deepak8431**##@@}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+
+supabase:
+  url: ${SUPABASE_URL:https://uwlyqosmckfwnmezajrf.supabase.co}
+  jwt:
+    issuer-uri: ${SUPABASE_JWT_ISSUER_URI:https://uwlyqosmckfwnmezajrf.supabase.co/auth/v1}
+    jwk-set-uri: ${SUPABASE_JWK_SET_URI:https://uwlyqosmckfwnmezajrf.supabase.co/auth/v1/.well-known/jwks.json}
